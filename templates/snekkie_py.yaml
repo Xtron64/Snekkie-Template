@@ -1,0 +1,40 @@
+
+# Go to the GitHub repo https://github.com/humblepenguinn/tmplt for more information
+
+# Template information
+name: snekkie_py
+description: My template for my Python projects.
+
+# Commands to run during setup
+setup_commands:
+  - mkdir src tests
+  - touch src/main.py README.md
+  - cp ~/Programming/Snekkie-Template/LICENSE LICENSE
+
+# Dependency information
+#dependencies:
+# - name: dependency_1
+#   install_command: install_command_1
+#
+# - name: dependency_2
+#   install_command: install_command_2
+
+# Files to generate
+#files:
+# - name: file_name_1
+#   content: |
+#     file contents
+# - name: file_name_2
+#   content: |
+#     file contents
+
+# Post-setup command to run after setup is complete
+#post_setup_commands:
+#  - command_1
+# - command_2
+
+#variables:
+#  - name: my_variable_name
+#   description: description of the variable
+#   default: the default value of the variable
+

@@ -1,0 +1,39 @@
+
+# Go to the GitHub repo https://github.com/humblepenguinn/tmplt for more information
+
+# Template information
+name: snekkie_c
+description: My template for my C projects.
+
+# Commands to run during setup
+setup_commands:
+  - mkdir src tests compiled
+  - touch README.md
+  - cp ~/Programming/Snekkie-Template/LICENSE LICENSE
+
+# Dependency information
+#dependencies:
+#  - name: gcc
+#    install_command: sudo pacman -S gcc
+#
+#  - name: dependency_2
+#    install_command: install_command_2
+
+# Files to generate
+#files:
+#  - name: src/main.py
+#    content: |
+#      int main() {
+#        
+#     }
+
+# Post-setup command to run after setup is complete
+#post_setup_commands:
+#  - command_1
+#  - command_2
+
+#variables:
+#  - name: my_variable_name
+#    description: description of the variable
+#    default: the default value of the variable
+
